@@ -4,6 +4,11 @@
 
 # NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-two) contains 23 letters and 115 (one hundred and fifteen) contains 20 letters. The use of "and" when writing out numbers is in compliance with British usage.
 
+# LOGIC:
+# Convert the num to an array, pop from the unit digits and move to highers decimals.
+# 'and' will be either in the second last place (that is before the 10s place) or whereever
+# a '0' occurs eg, 101 is one hundred and one, 111 is one hundred and eleven
+
 convention = {
     0 : 'zero',
     1 : 'one',
