@@ -11,6 +11,7 @@
 # eg.
 # hash[220] = 284 and
 # hash[282] = 220
+# hash will have all the numbers and the sum of divisors, but amicable_pairs will have only the the reqd pairs
 
 import math
 
