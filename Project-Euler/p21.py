@@ -8,6 +8,7 @@
 # LOGIC:
 # for all the numbers from 1 to 10000 find the proper divisors and look up whether the sum of proper divisors is 
 # there in the number with that numbers sum of divisors equal to current number
+# eg.
 # hash[220] = 284 and
 # hash[282] = 220
 
