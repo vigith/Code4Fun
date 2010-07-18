@@ -11,6 +11,11 @@
 %% 1. "which do not exceed four million" the value which do not exceed 4M, not the sum (so sum + fib(next) > 4M)
 %% 2. even-valued terms are not the 2nd fourth term, but fib terms whose value is even
 
+%% BETTER LOGIC:
+%% i could have moved the check from Fib(num) output to
+%% fib term. ie,F(0) = 1, F(1) = 1, F(2) = 2, F(3) = 3, F(4) = 5, F(5) = 8
+%% so, it means every 3rd fib term is even
+
 -module(p2).
 
 -export([sum_of_even/0, sum_of_even_term/0]).
