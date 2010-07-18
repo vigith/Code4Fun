@@ -31,7 +31,6 @@ sum_of_even(N, Sum, Cnt, X1, X2) ->
     X = fib(X1, X2, Cnt),
     if 
 	Cnt rem 2 =:= 0, Sum + X =< N ->
-	    io:format("~w, ~w, ~w~n",[Cnt, Sum+X, X]),
 	    sum_of_even(N, Sum + X, Cnt + 1, X2, X);	
 	Sum + X =< N ->
 	    sum_of_even(N, Sum, Cnt + 1, X2, X);
@@ -45,6 +44,9 @@ sum_of_even_term() ->
     X2 = fib(none, none, 1),
     sum_of_even_term(4000000, 0, 2, X1, X2). %% don't add X1 or X0 (Ques says from 1st term and 1 is odd)
 
+%% i could have moved the check from Fib(num) output to
+%% fib term. ie,F(0) = 1, F(1) = 1, F(2) = 2, F(3) = 3, F(4) = 5, F(5) = 8
+%% so, it means every 3rd fib term is even
 sum_of_even_term(N, Sum, Cnt, X1, X2) ->
     X = fib(X1, X2, Cnt),
     if 
