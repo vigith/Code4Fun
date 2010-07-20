@@ -15,55 +15,9 @@ import math
 
 primes = {}
 
-def buildPowers(lower, number, limit):
-    count = limit - lower + 1
-    print number, limit, lower, count
-    if not primes.has_key(number):
-        primes[number] = limit - lower + 1
-    elif primes[number] > count:
-        primes[number] -= count
-
-## build derived, ie from 2's powers extend to 4's etc
-def buildDerived(num, limit):
-    counter = 2
-
-    ## max built my num 
-    max_yet = math.pow(num, limit)
-
-    while counter <= limit:
-        pow = int(math.pow(num, counter))
-        if pow > limit: break
-
-        ## power of max built in term of 'i' (i is a power of prime)
-        lower = int(math.floor(math.log(max_yet, pow))) + 1
-        if (num == 2):
-            print pow, lower, limit, max_yet
-
-        ## build the rest of the powers
-        buildPowers(lower, pow, limit)
-
-        buildDerived(pow, limit)
-        
-        counter += 1
-
-
 if __name__ == '__main__':
-    LIMIT = 20
+    for i in range(2, 101):
+        for j in range(2, 101):
+            primes[math.pow(i,j)] = 1
 
-    counter = 2
-    while counter <= LIMIT:
-        lower = 2 # least power
-        buildPowers(lower, counter, LIMIT)
-        buildDerived(counter, LIMIT)
-
-        ## add next prime number
-        counter += 1
-
-    # build derived primes (eg, 4, 8, 16 etc from 2)
-
-    total_powers = 0
-    for i in primes.keys():
-        total_powers += primes[i]
-
-    print total_powers
-    print primes
+    print len(primes.keys())
