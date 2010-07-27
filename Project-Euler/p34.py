@@ -4,6 +4,14 @@
 
 # Note: as 1! = 1 and 2! = 2 are not sums they are not included.
 
+# LOGIC:
+# Two types of implementation is in here
+# 1. sum(1! + 2! .. 9!) = 409113, that means it has only 6 digits so take 9C6 from range(0, 10)
+#   1.a. do sum of factorial and see wehther it is equal to ''.join.(digits)
+# 2. brute force, from 1 to 409113 (it could be more than that)
+#   2.a see whether sum of factorials = num
+
+
 import math
 
 def numEqToFacts(array):
