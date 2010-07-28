@@ -4,6 +4,11 @@
 
 # How many circular primes are there below one million?
 
+# LOGIC:
+# Get prime numbers till 10**6, rotate and see whether each rotated one is prime (see wether there is any
+# even number in the number, if that is the case rotation will provide composite numbers).
+# I should write the sieve's algo, i am using an old iterator approach
+
 import math
 
 primes_hash = {}
