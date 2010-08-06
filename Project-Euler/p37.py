@@ -10,6 +10,20 @@ import math
 # Straight Logic, using 1 parse we can get both the left and right shifted numbers. I can avoid rechecking whether a number is prime
 # twice using an array (but lazy to do that)
 
+# BETTER LOGIC:
+# A truncable prime generated will be formed (loosely used) from the similar already generated truncable prime
+# 23
+# 37
+# 53
+# 73
+# 313
+# 317
+# 373
+# 797
+# 3137
+# 3797
+# 739397
+
 ## can add an optimization by *memoizing* factors
 def nextPrime(list, it):
     while True:
