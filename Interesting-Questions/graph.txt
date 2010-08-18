@@ -1,0 +1,11 @@
+Q. Given an adjacency list with self-loops and multi-paths, create another adjacency list with both self-loops and multi-paths removed. The complexity should be O(V+E).
+
+Soln 1.
+Use Adjacency Matrix, but this can make a sparse matrix with lot of holes. Complexity is O(E + d) where d < V and d is the time to index the right spot. Logic is, if the Matrix entry is already marked, don't mark again.
+
+Soln 2.
+Use Adjacency List using insertion sort to decide where to insert the element. Sorting ensures that the list is sorted and removing the duplicates is easier. Complexity is O(insertion sort * E) = O(xlogxE) where x is less that V and x == V during worst case (x is otherwise the average length of the adjacency list)
+
+Soln 3.
+Hash, nested Hash, amortized complexity is O(1).  list = [ A = { B => 1, C => 1, ... } ]. Complexity is O(d+hash_lookup + E).
+
