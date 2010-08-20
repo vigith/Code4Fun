@@ -1,3 +1,5 @@
+;; Cormen 21-4
+
 Q. Given an adjacency list with self-loops and multi-paths, create another adjacency list with both self-loops and multi-paths removed. The complexity should be O(V+E).
 
 Soln 1.
