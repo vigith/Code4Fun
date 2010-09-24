@@ -1,1 +1,9 @@
-Construct a Queue with Stack (amortized) O(1)
+Q. Construct a Queue with Stack (amortized) O(1)
+
+A. 
+   -> [....] -> is a queue
+
+  <=> [....]    is a stack
+
+
+Create two stacks and copy from one stack to another. Now the second one will have the last at top and pop-ing out is like pulling from a queue while on the first stack you can keep pushing. This pop-ing and push-ing is O(1). THe complexity changes only when you copy from 1st stack to second and that will happen when the second stack is empty.
