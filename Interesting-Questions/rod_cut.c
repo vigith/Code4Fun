@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+ * Problem: Given a rod of length n inches and a table of prices pi for i = 1, 2, . . . , n,i
+ * determine the maximum revenue rn obtainable by cutting up the rod and selling the pieces.
+ * length i 1 2 3 4 5  6  7  8  9  10
+ * price pi 1 5 8 9 10 17 17 20 24 30
+ *
+ * http://www.columbia.edu/~cs2035/courses/csor4231.F09/dynamic.pdf
+ */
+
 int Price[11]   = {0, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30};
 int Revenue[11] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 int Lenght[11]  = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
