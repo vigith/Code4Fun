@@ -12,14 +12,13 @@ c = []   ## count of coins required for each index (amount)
 s = []   ## coin index for each amount
 
 ## initiallize both to 0
-for t in range(1, n+2):
+for t in range(0, n+1):
     c.append(0)
     s.append(0)
     
 for p in range(1, n+1):
-    print p
     min = 99999
-    for i in range(0, k):
+    for i in range(0, k):  ## this iterates between 0 to k
         if d[i] <= p:
             if 1 + c[p-d[i]] < min:
                 min  = 1 + c[p-d[i]]
