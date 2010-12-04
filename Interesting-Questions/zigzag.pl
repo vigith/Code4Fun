@@ -38,7 +38,7 @@ my $test = [
 	   ];
 
 foreach (@$test) {
-  ok(zigzag(@{$_->[0]} eq $_->[1], $#{$_->[0]}))
+  ok(zigzag(@{$_->[0]} == $_->[1], $#{$_->[0]}))
 }
 
 #done_testing(scalar @$test);
