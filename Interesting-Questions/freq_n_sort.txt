@@ -1,0 +1,14 @@
+Question: 
+========
+Given a sorted array, how will you find the frequency of occurence of a given element  in O(log n)
+
+Solution: 
+========
+recursively apply BST on the two halves of the list 
+START: lists are [a1,a2..ax], [0]
+LATER: lists are [a1..an], [an...ax]
+where an is the element we have to find the frequency for
+
+Drawbacks:
+=========
+Thinking on it :-)
