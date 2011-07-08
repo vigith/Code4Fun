@@ -1,0 +1,57 @@
+[info] 2010-01-26T04:58:51.519236Z [<0.456.0>] started with Pid ['WORKER_AGENT']
+[info] 2010-01-26T04:58:56.622721Z ['WORKER_AGENT'] got UNKOWN message [hello]
+[info] 2010-01-26T04:59:00.558902Z ['WORKER_AGENT'] got UNKOWN message [helloWorld]
+[info] 2010-01-26T04:59:08.910199Z ['WORKER_AGENT'] got UNKOWN message [stop]
+[info] 2010-01-26T04:59:10.343112Z ['WORKER_AGENT'] got UNKOWN message [stop]
+[info] 2010-01-26T04:59:11.374919Z ['WORKER_AGENT'] got UNKOWN message [stop]
+[info] 2010-01-26T05:00:03.535308Z ['WORKER_AGENT'] got UNKOWN message [{<0.454.0>,stop}]
+[info] 2010-01-26T05:00:22.525522Z ['WORKER_AGENT'] stopping
+[info] 2010-01-29T11:07:52.998807Z [worker_agent] stopping
+[info] 2010-01-29T11:07:52.999224Z =============================================================
+[info] 2010-01-29T11:32:26.827230Z [worker_agent] stopping
+[info] 2010-01-29T11:32:26.827682Z =============================================================
+[warn] 2010-01-29T11:44:20.230239Z meow
+[info] 2010-01-29T11:45:35.499768Z [worker_agent] stopping
+[info] 2010-01-29T11:45:35.500146Z =============================================================
+[info] 2010-01-29T12:11:14.802273Z =============================================================
+[info] 2010-01-29T12:11:14.802701Z [worker_agent] started with Pid [<0.93.0>]
+[info] 2010-01-29T12:11:18.665802Z [worker_agent] stopping
+[info] 2010-01-29T12:11:18.666125Z =============================================================
+[info] 2010-01-29T14:04:08.919152Z =============================================================
+[info] 2010-01-29T14:04:08.919416Z [worker_agent] started with Pid [<0.96.0>]
+[info] 2010-01-29T14:04:36.903252Z Added [#Ref<0.0.0.538>] to Process Dictionary with Key [<0.117.0>] and Time [773876]
+[info] 2010-01-29T14:04:36.912722Z Erased from Process Dictionary the Key [<0.117.0>] and Request Pid is [#Ref<0.0.0.538>]
+[info] 2010-01-29T14:05:54.903464Z [worker_agent] stopping
+[info] 2010-01-29T14:05:54.903703Z =============================================================
+[info] 2010-01-29T14:10:00.774801Z =============================================================
+[info] 2010-01-29T14:10:00.775284Z [worker_agent] started with Pid [<0.166.0>]
+[info] 2010-01-29T14:10:09.494468Z Added [#Ref<0.0.0.965>] to Process Dictionary with Key [<0.176.0>] and Time [774209]
+[info] 2010-01-29T14:10:09.505763Z Erased from Process Dictionary the Key [#Ref<0.0.0.965>] and Request Pid is [<0.176.0>]
+[info] 2010-01-29T14:10:47.151153Z Added [#Ref<0.0.0.1091>] to Process Dictionary with Key [<0.208.0>] and Time [774247]
+[info] 2010-01-29T14:10:47.167342Z Erased from Process Dictionary the Key [#Ref<0.0.0.1091>] and Request Pid is [<0.208.0>]
+[info] 2010-01-29T14:10:50.288029Z Added [#Ref<0.0.0.1221>] to Process Dictionary with Key [<0.241.0>] and Time [774250]
+[info] 2010-01-29T14:10:50.299475Z Erased from Process Dictionary the Key [#Ref<0.0.0.1221>] and Request Pid is [<0.241.0>]
+[info] 2010-01-29T14:12:55.549081Z Added [#Ref<0.0.0.1433>] to Process Dictionary with Key [<0.279.0>] and Time [774375]
+[info] 2010-01-29T14:12:55.576711Z Erased from Process Dictionary the Key [#Ref<0.0.0.1433>] and Request Pid is [<0.279.0>]
+[info] 2010-01-29T14:13:05.356506Z Added [#Ref<0.0.0.1659>] to Process Dictionary with Key [<0.311.0>] and Time [774385]
+[info] 2010-01-29T14:13:05.382918Z Erased from Process Dictionary the Key [#Ref<0.0.0.1659>] and Request Pid is [<0.311.0>]
+[info] 2010-01-29T14:13:11.484495Z Added [#Ref<0.0.0.1885>] to Process Dictionary with Key [<0.343.0>] and Time [774391]
+[info] 2010-01-29T14:13:11.506462Z Erased from Process Dictionary the Key [#Ref<0.0.0.1885>] and Request Pid is [<0.343.0>]
+[info] 2010-01-29T14:13:19.484243Z Added [#Ref<0.0.0.2201>] to Process Dictionary with Key [<0.381.0>] and Time [774399]
+[info] 2010-01-29T14:13:19.512467Z Erased from Process Dictionary the Key [#Ref<0.0.0.2201>] and Request Pid is [<0.381.0>]
+[info] 2010-01-29T14:13:46.604482Z Added [#Ref<0.0.0.2517>] to Process Dictionary with Key [<0.419.0>] and Time [774426]
+[info] 2010-01-29T14:13:46.629417Z Erased from Process Dictionary the Key [#Ref<0.0.0.2517>] and Request Pid is [<0.419.0>]
+[info] 2010-01-29T14:14:01.462367Z Added [#Ref<0.0.0.2743>] to Process Dictionary with Key [<0.452.0>] and Time [774441]
+[info] 2010-01-29T14:14:01.489709Z Erased from Process Dictionary the Key [#Ref<0.0.0.2743>] and Request Pid is [<0.452.0>]
+[info] 2010-01-29T14:26:41.821979Z Added [#Ref<0.0.0.2973>] to Process Dictionary with Key [<0.484.0>] and Time [775201]
+[info] 2010-01-29T14:26:41.848124Z Erased from Process Dictionary the Key [#Ref<0.0.0.2973>] and Request Pid is [<0.484.0>]
+[info] 2010-01-29T16:39:27.461901Z Added [#Ref<0.0.0.3201>] to Process Dictionary with Key [<0.516.0>] and Time [783167]
+[info] 2010-01-29T16:39:27.482101Z Erased from Process Dictionary the Key [#Ref<0.0.0.3201>] and Request Pid is [<0.516.0>]
+[info] 2010-01-29T16:39:54.13656Z Added [#Ref<0.0.0.3443>] to Process Dictionary with Key [<0.549.0>] and Time [783194]
+[info] 2010-01-29T16:39:54.34820Z Erased from Process Dictionary the Key [#Ref<0.0.0.3443>] and Request Pid is [<0.549.0>]
+2010-01-29 22:10:16.78933 [info] Added [#Ref<0.0.0.3712>] to Process Dictionary with Key [<0.595.0>] and Time [783216]
+2010-01-29 22:10:16.98983 [info] Erased from Process Dictionary the Key [#Ref<0.0.0.3712>] and Request Pid is [<0.595.0>]
+2010-01-30 13:36:41.510296 [info] Added [#Ref<0.0.0.4199>] to Process Dictionary with Key [<0.635.0>] and Time [838801]
+2010-01-30 13:36:41.529321 [info] Erased from Process Dictionary the Key [#Ref<0.0.0.4199>] and Request Pid is [<0.635.0>]
+2010-01-30 13:39:43.948489 [info] [worker_agent] stopping
+2010-01-30 13:39:43.948764 [info] =============================================================
